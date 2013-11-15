@@ -1,4 +1,4 @@
-this is the devise template I will use to fork from so I do not have to make new pages everytime.
+This is the devise template I will use to fork from so I do not have to make new pages everytime.
 
 Commands ran- 
 
