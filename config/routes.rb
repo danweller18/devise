@@ -1,8 +1,8 @@
 Example::Application.routes.draw do
-  devise_for :admins, :path => "", :path_names => { :sign_in => 'ad', :sign_out => 'logout', :sign_up => 'signup' }
+  devise_for :admin
   root 'static_pages#home'
   match '/help',    to: 'static_pages#help',    via: 'get'
-  devise_for :users, :path => "", :path_names => { :sign_in => 'signin', :sign_out => 'logout', :sign_up => 'signup' }
+  devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
